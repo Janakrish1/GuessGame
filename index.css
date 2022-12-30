@@ -1,7 +1,101 @@
-.center {
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.title {
+    position: absolute;
+    margin-top: -310px;
+    transform: translate(-50%, -50%);
+    color: white;
+    white-space: nowrap;
+}
+
+.msg {
+    position: absolute;
+    font-size: 20px;
+    margin-top: -250px;
+    transform: translate(-50%, -50%);
+    color: white;
+    white-space: nowrap;
+}
+
+.score {
+    position: absolute;
+    font-family: Bahnschrift;
+    transform: translate(-50%, -50%);
+    background-color: aqua;
+    white-space: nowrap;
+    height: 50px;
+    width: 200px;
+    font-size: 40px;
+    font-stretch: extra-expanded;
+    margin-top: 230px;
+    color: rebeccapurple;
+}
+
+.high-score {
+    position: absolute;
+    font-family: Bahnschrift;
+    transform: translate(-50%, -50%);
+    background-color: aqua;
+    white-space: nowrap;
+    height: 50px;
+    width: 280px;
+    font-size: 40px;
+    font-stretch: extra-expanded;
+    margin-top: 300px;
+    color: red;
+}
+
+.computer-number {
+    position: absolute;
+}
+
+.user-input {
+    position: absolute;
+    border-radius: 100px;
+    background-color: yellow;
+    border-color: magenta;
+    border-width: 5px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.play-button {
+    position: absolute;
+    color: greenyellow;
+    background-color: blueviolet;
+    border-color: yellow;
+    border-radius: 100px;
+    border-width: 10px;
+    white-space: nowrap;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Algerian;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 500px;
     height: 730px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ribbon {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 400px;
+
 }

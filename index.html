@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+<img src="templates/gameMachine.png" alt="GameMachine" class="center">
 <head>
     <meta charset="UTF-8">
-    <title>Guessing the Number</title>
+    <title>Guess the Number</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
- <img src="templates/gameMachine.png" alt="GameMachine" class="center">
-
+    <div class="container">
+        <h1 class="title" > Guess The Number </h1>
+        <p class="msg"> Start the guessing (1 to 20)... </p>
+        <div>
+            <input type="text" class="user-input">
+            <button type="button" class="play-button"> Guess Again </button>
+        </div>
+        <p class="computer-number">?</p>
+        <p class="score"> Score: <span>20</span> </p>
+        <p class="high-score"> High Score: <span>0</span> </p>
+    </div>
 </body>
 </html>
